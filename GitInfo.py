@@ -46,7 +46,7 @@ def help(_bot, update):
     """/help message for the bot"""
     message = update.effective_message
     message.reply_text(
-        f"*Available Commands*\n\n`/connect` - Setup how to connect this chat to receive Git activity notifications.\n`/support` - Get links to get support if you're stuck.\n`/source` - Get the Git repository URL.",
+        f"*Available Commands*\n\n`/connect` - Setup how to connect this chat to receive Git activity notifications.\n`/support` - Get links to get support if you're stuck.\n`/source` - Get the Git repository URL.\n`/owner` - Get to the Owner.",
         parse_mode="markdown"
     )
 
@@ -80,7 +80,7 @@ def getSourceCodeLink(_bot, update):
 def owner(_bot, update):
     """Get to Owner."""
     message = update.effective_message
-    message.rely_text(
+    message.reply_text(
         f"*Owner*:\n[Moi Owner](https://t.me/Warning_MadBoy_is_Back).",
         parse_mode="markdown"
     )
