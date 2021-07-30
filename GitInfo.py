@@ -77,15 +77,25 @@ def getSourceCodeLink(_bot, update):
     )
 
 
+def owner(_bot, update):
+    """Get to Owner."""
+    message = update.effective_message
+    message.rely_text(
+        f"*Owner*:\n[Moi Owner](https://t.me/Warning_MadBoy_is_Back).",
+        parse_mode="markdown"
+    )
+
 start_handler = CommandHandler("start", start)
 help_handler = CommandHandler("help", help)
 supportCmd = CommandHandler("support", support)
 sourcecode = CommandHandler("source", source)
+owner = CommandHandler("owner", owner)
 
 dispatcher.add_handler(start_handler)
 dispatcher.add_handler(help_handler)
 dispatcher.add_handler(supportCmd)
 dispatcher.add_handler(sourcecode)
+dispatcher.add_handler(owner)
 updater.start_polling()
 
 TG_BOT_API = f'https://api.telegram.org/bot{BOT_TOKEN}/'
