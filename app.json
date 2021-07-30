@@ -9,7 +9,6 @@
     "repository": "https://github.com/madboy482/GitInfo/",
     "website": "https://github.com/madboy482/GitInfo/",
     "success_url": "https://telegram.me/TeslaRobo_Chat",
-    "stack": "container",
     "env": {
         "ENV": {
             "description": "Fill this if you using environ variable as config.",
