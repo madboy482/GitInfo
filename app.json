@@ -1,7 +1,7 @@
 {
     "name": "GitInfo",
     "description": "GitHub and GitLab Integration for Telegram Bot API",
-    "logo": "",
+    "logo": "https://telegra.ph/file/79c943bb38f121b9f3243.png",
     "keywords": [
         "telegram",
         "github"
