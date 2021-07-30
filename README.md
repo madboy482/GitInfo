@@ -1,4 +1,4 @@
-# GitInfo - Github Integration for Telegram Bot API
+# GitInfo - GitHub & GitLab Integration for Telegram Bot API
 
 ## Setup:
 - Install all requirements, `pip3 install -r requirements.txt`
